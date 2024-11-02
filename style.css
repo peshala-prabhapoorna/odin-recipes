@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    color: #1A3636;
+}
+
+.container {
+    color: #40534C;
+    margin: auto;
+    width: 50%;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
