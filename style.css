@@ -34,7 +34,7 @@ img {
     margin-right: auto;
 }
 
-/*>>> card styling*/
+/*>>> card*/
 .card {
     display: inline-block;
     width: 250px;
@@ -70,4 +70,55 @@ img {
     bottom: 0px;
     left: 0px;
 }
-/*<<< card styling*/
+/*<<< card*/
+
+/*>>> recipe*/
+.recipe {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    padding: 0 15px;
+    font-size: 115%;
+    line-heigt: 1.4;
+}
+
+.recipe-title {
+    text-align: center;
+    padding: 15px 0;
+    margin: 15px;
+}
+
+.recipe-img {
+    max-width: 100%;
+}
+
+.recipe > p {
+    line-height: 1.4;
+    padding: 15px 0;
+}
+
+.recipe h2 {
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.recipe h3 {
+    padding: 10px 0;
+    margin: 10px;
+    color: #40534C;
+}
+
+.recipe-ingredients,
+.recipe-steps {
+
+}
+
+.recipe-ingredients > ul {
+    list-style-type: square;
+}
+
+.recipe li {
+    margin: 5px 0;
+    line-height: 1.4;
+}
+/*<<< recipe*/
